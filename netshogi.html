@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>将棋</title>
+	<script type="text/javascript" src="shogi.js"></script>
+</head>
+<body onload="init()">
+	<canvas id="world"></canvas><br>
+	<select id="idselect" onchange="changeplayer(this)">
+		<option value="0">あなた＝先手
+		<option value="1">あなた＝後手
+	</select><br><br>
+	<div id="idresult"></div>
+</body>
+</html>
